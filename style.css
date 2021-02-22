@@ -164,7 +164,8 @@ form.aui div.description {
 .issue-table > tbody > tr,
 #issuetable > tfoot > tr,
 .issue-table > tfoot > tr,
-.issuerow {
+.issuerow, 
+.two-d-container table.aui tbody .totals {
     background-color: #21252D !important;
     color: #EBEBEB !important;
 }
