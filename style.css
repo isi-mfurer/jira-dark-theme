@@ -144,9 +144,18 @@ form.aui div.description {
 }
 
 #dashboard > .vertical.tabs,
-#dashboard > #dashboard-content {
+#dashboard > #dashboard-content,
+.s-board-header {
     background:#21252D !important;
 }
+
+.navigator-container,
+.navigator-body,
+.contained-content,
+.s-pb-container {
+    background-color: #21252D !important;
+}
+
 
 #footer-logo {
     background-color: #21252D !important;
@@ -164,7 +173,8 @@ form.aui div.description {
 .issue-table > tbody > tr,
 #issuetable > tfoot > tr,
 .issue-table > tfoot > tr,
-.issuerow, 
+.issuerow,
+.qrf-header, .qrf-value, .qrf-rich-views,
 .two-d-container table.aui tbody .totals {
     background-color: #21252D !important;
     color: #EBEBEB !important;
@@ -233,7 +243,6 @@ form.aui div.description {
 }
 
 .aui-header .aui-dropdown2-trigger {
-    background-color: #21252D !important;
     color: #EBEBEB !important;
 }
 
@@ -253,7 +262,6 @@ form.aui div.description {
     border-color: #EBEBEB !important;
 }
 
-.aui-header,
 .aui-sidebar,
 .aui-sidebar-wrapper {
     background-color: #21252D !important;
