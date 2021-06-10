@@ -1,4 +1,6 @@
 @-moz-document url-prefix("http://jira"), url-prefix("https://jira") {
+/* dark theme https://github.com/isi-mfurer/jira-dark-theme */
+
 html,
 body {
     background-color: #21252D !important;
@@ -174,6 +176,7 @@ form.aui div.description {
 #issuetable > tfoot > tr,
 .issue-table > tfoot > tr,
 .issuerow,
+#structure .tr,
 .qrf-header, .qrf-value, .qrf-rich-views,
 .two-d-container table.aui tbody .totals {
     background-color: #21252D !important;
@@ -988,9 +991,19 @@ body#tinymce table th {
     background-color: #21252D !important;
 }
 
+/* header for backlog view sections */
+.ghx-backlog-header {
+    background: #2C3037 !important;
+    color: #EBEBEB !important;
+}
+
 pre,
 code {
     background: #2C3037 !important;
     color: #EBEBEB !important;
+}
+
+#js-sizer {
+    background-color: #3C414C !important
 }
 }
